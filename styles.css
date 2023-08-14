@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    margin:0 0;
+    background-image: url(back.webp);
+    font-family: 'PT Serif', serif;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* main section */
+main{
+    color: white;
+}
+main h1{
+    font-size: 300%;
+}
+/* body section */
+section{
+    background-color: rgba(107, 159, 107, 0.745);
+    color: rgb(255, 255, 255);
+    margin: 3% 15%;
+    padding: 3% 5%;
+}
+section h1{
+    font-size: 300%;
+}
+section ul{
+    text-align: left;
+    line-height: 1.5rem;
+}
+section ul li{
+    font-size: 130%;
+    padding: 3% 0;
+}
+section ul li:hover{
+    background-color: rgba(235, 236, 237, 0.1);
+}
+/* footer section */
+footer{
+    margin: 3% 0% 0 0%;
+    padding: 3% 0;
+    background-color: white;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:checked{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: none;
+    color: rgb(0,127,0);
+}
